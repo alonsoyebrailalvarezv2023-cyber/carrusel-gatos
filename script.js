@@ -1,7 +1,7 @@
 const carrusel = document.querySelector('.carrusel');
 const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
-
+//cambio
 const totalImages = 6;
 let currentIndex = 0;
 
@@ -19,3 +19,4 @@ nextBtn.addEventListener('click', () => {
   currentIndex = (currentIndex + 1) % totalImages;
   updateCarrusel();
 });
+
