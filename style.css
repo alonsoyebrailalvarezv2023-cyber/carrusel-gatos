@@ -8,7 +8,8 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
   }
-  
+  /* cambio */
+
   .carrusel-container {
     position: relative;
     width: 600px;
@@ -51,4 +52,5 @@ body {
   .next {
     right: 10px;
   }
+
   
